@@ -46,7 +46,7 @@ def results():
     return "This page is only accessible after form submission."
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=8080)
 
 
 
