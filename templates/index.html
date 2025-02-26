@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Statistics</title>
+</head>
+<body>
+    <h1>Enter Numbers</h1>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="POST">
+        <textarea name="numbers" rows="5" cols="40"></textarea><br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
