@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import statistics
 import re
 
-# test auto deploy
+# test auto deploy 2
 app = Flask(__name__)
 
 def calculate_statistics(numbers):
