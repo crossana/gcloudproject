@@ -3,7 +3,7 @@
 set -e
 
 APP_NAME="gcloud"
-REPO_DIR="~/app/gcloudproject"
+REPO_DIR="/home/ubuntu/app/gcloudproject"
 IMAGE_NAME="gcloud-image"
 CONTAINER_NAME="gcloud-container"
 PORT=3000   # change to your app port
